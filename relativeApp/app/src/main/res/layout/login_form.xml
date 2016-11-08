@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/title"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="로그인"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/input_id"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/title"
+        android:background="#ffdd00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textSize="20dp"
+        android:id="@+id/input_pwd"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignLeft="@id/input_id"
+        android:layout_below="@id/input_id"
+        android:background="#ffdd00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignBaseline="@id/input_id"
+        android:layout_toLeftOf="@id/input_id"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_alignBaseline="@id/input_pwd"
+        android:layout_toLeftOf="@id/input_pwd"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:text="패스워드"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignLeft="@id/input_pwd"
+        android:layout_below="@id/input_pwd"
+        android:textSize="20sp"
+        android:background="#acabab"
+        android:text="로그인"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_alignRight="@id/input_pwd"
+        android:layout_below="@id/input_pwd"
+        android:textSize="20sp"
+        android:background="#acabab"
+        android:text="취소"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
