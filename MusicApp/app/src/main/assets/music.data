@@ -1,0 +1,44 @@
+{
+  "musicList": [
+    {
+      "title": "besideme",
+      "artist": "하하",
+      "filename": "besideme.mp3"
+    },
+    {
+      "title": "car",
+      "artist": "인크레더블",
+      "filename": "car.mp3"
+    },
+    {
+      "title": "cheerup",
+      "artist": "ioi",
+      "filename": "cheerup.mp3"
+    },
+    {
+      "title": "fear",
+      "artist": "송민호",
+      "filename": "fear.mp3"
+    },
+    {
+      "title": "loveis",
+      "artist": "트와이스",
+      "filename": "loveis.mp3"
+    },
+    {
+      "title": "my_davich",
+      "artist": "다비치",
+      "filename": "my_davich.mp3"
+    },
+    {
+      "title": "tt",
+      "artist": "트와이스",
+      "filename": "tt.mp3"
+    },
+    {
+      "title": "whattaman",
+      "artist": "트와이스",
+      "filename": "whattaman.mp3"
+    }
+  ]
+}
